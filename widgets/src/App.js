@@ -35,6 +35,12 @@ const App = () => {
         />
         : null
       }
+
+      <h3
+        style={{color: selected.value}}>
+        {`This text is ${selected.value}`}
+      </h3>
+
     </div>
   );
 };
